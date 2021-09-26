@@ -1,0 +1,34 @@
+.sidebar {
+    background-color: #FAFBFD;
+    padding: 30px;
+    margin-right: 100px;
+}
+
+.menu_item {
+    margin-top: 100px;
+}
+
+.logo h3 {
+    font-weight: 900;
+}
+
+.active {
+    font-weight: 900;
+    color: #000;
+}
+
+li {
+    list-style: none;
+    margin: 30px auto;
+    color: #9E9E9E;
+}
+
+.t_red {
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+    }
+}

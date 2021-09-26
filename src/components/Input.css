@@ -1,0 +1,65 @@
+.f_input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #828282;
+    font-weight: 500;
+    line-height: 20px;
+    outline: none;
+}
+
+.f_hover, .e_hover {
+    border: 1px solid #333;
+}
+
+.f_focus {
+    border: 1px solid #2962ff;
+}
+
+.error, .e_focus {
+    border: 1px solid #D32F2F;
+}
+
+.disabled {
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.sm_text {
+    font-size: 10px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.s_red {
+    color: #D32F2F;
+}
+
+.img {
+    width: 12px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.img-right {
+    width: 12px;
+    float: right;
+    margin-left: 10px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.md_input {
+    padding: 15px;
+}
+
+.row_4 {
+    padding: 10px 50px 150px 10px !important;
+}

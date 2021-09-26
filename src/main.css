@@ -30,8 +30,19 @@ small {
     margin-right: auto;
 }
 
-.padlock {
-    width: 12px;
+.icon-right {
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 12px;
+}
+
+.icon-left {
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 12px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 600px) {

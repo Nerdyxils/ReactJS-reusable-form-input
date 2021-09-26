@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Input from './components/Input'
 import { GiPadlock } from 'react-icons/gi'
+import { FiPhone } from 'react-icons/fi'
 
 import './main.css'
 
@@ -83,11 +84,13 @@ class Main extends Component {
                 <div className="i_item">
                     <small>{`<Input startIcon />`}</small>
                     <p>Label</p>
-                    <Input styleClass="f_input"> <GiPadlock /> </Input>
+                    <FiPhone className="icon-right" />
+                    <Input styleClass="f_input" />
                 </div>
                 <div className="i_item">
                     <small>{`<Input endIcon />`}</small>
                     <p className="s_red">Label</p>
+                    <GiPadlock className="icon-left"/> 
                     <Input styleClass="f_input" />
                 </div>
             </div>

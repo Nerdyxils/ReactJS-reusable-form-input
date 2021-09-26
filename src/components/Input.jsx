@@ -3,10 +3,9 @@ import React from 'react'
 import "./Input.css"
 
 
-const Input = ({styleClass, icon, img }) => {
+const Input = ({ styleClass }) => {
     return (
-        <input type="input" className={`f_input ${styleClass}`} placeholder="Placeholder" > 
-           
+        <input type="input" className={`f_input ${styleClass}`} placeholder="Placeholder" >
         </input>
     )
 }

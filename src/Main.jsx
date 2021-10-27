@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Input from './components/Input'
-import { GiPadlock } from 'react-icons/gi'
-import { FiPhone } from 'react-icons/fi'
+import iconLeft from './images/padlock.svg'
+// import { GiPadlock } from 'react-icons/gi'
+// import { FiPhone } from 'react-icons/fi'
 
 import './main.css'
 
@@ -84,14 +85,12 @@ class Main extends Component {
                 <div className="i_item">
                     <small>{`<Input startIcon />`}</small>
                     <p>Label</p>
-                    {/* <FiPhone className="icon-right" /> */}
-                    <Input styleClass="f_input" icon={ GiPadlock } />
+                    <Input styleClass="left-icon"  />
                 </div>
                 <div className="i_item">
                     <small>{`<Input endIcon />`}</small>
                     <p className="s_red">Label</p>
-                    {/* <GiPadlock className="icon-left"/>  */}
-                    <Input styleClass="f_input" />
+                    <Input styleClass="right-icon" />
                 </div>
             </div>
             <div className="i_item">

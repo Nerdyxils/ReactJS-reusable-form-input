@@ -84,13 +84,13 @@ class Main extends Component {
                 <div className="i_item">
                     <small>{`<Input startIcon />`}</small>
                     <p>Label</p>
-                    <FiPhone className="icon-right" />
-                    <Input styleClass="f_input" />
+                    {/* <FiPhone className="icon-right" /> */}
+                    <Input styleClass="f_input" icon={ GiPadlock } />
                 </div>
                 <div className="i_item">
                     <small>{`<Input endIcon />`}</small>
                     <p className="s_red">Label</p>
-                    <GiPadlock className="icon-left"/> 
+                    {/* <GiPadlock className="icon-left"/>  */}
                     <Input styleClass="f_input" />
                 </div>
             </div>

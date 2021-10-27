@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactJS-reusable-form-input/static/css/main.3234a1d8.chunk.css",
+    "main.js": "/ReactJS-reusable-form-input/static/js/main.a4fadb88.chunk.js",
+    "main.js.map": "/ReactJS-reusable-form-input/static/js/main.a4fadb88.chunk.js.map",
+    "runtime-main.js": "/ReactJS-reusable-form-input/static/js/runtime-main.ce61c366.js",
+    "runtime-main.js.map": "/ReactJS-reusable-form-input/static/js/runtime-main.ce61c366.js.map",
+    "static/js/2.412f2ff1.chunk.js": "/ReactJS-reusable-form-input/static/js/2.412f2ff1.chunk.js",
+    "static/js/2.412f2ff1.chunk.js.map": "/ReactJS-reusable-form-input/static/js/2.412f2ff1.chunk.js.map",
+    "index.html": "/ReactJS-reusable-form-input/index.html",
+    "static/css/main.3234a1d8.chunk.css.map": "/ReactJS-reusable-form-input/static/css/main.3234a1d8.chunk.css.map",
+    "static/js/2.412f2ff1.chunk.js.LICENSE.txt": "/ReactJS-reusable-form-input/static/js/2.412f2ff1.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/ReactJS-reusable-form-input/static/media/phone-call.48d8b122.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce61c366.js",
+    "static/js/2.412f2ff1.chunk.js",
+    "static/css/main.3234a1d8.chunk.css",
+    "static/js/main.a4fadb88.chunk.js"
+  ]
+}
